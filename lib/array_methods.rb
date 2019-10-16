@@ -5,7 +5,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  scale(array)
+  find_max_value(scale,array)
 end
 
 def find_min_value(array)
